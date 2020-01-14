@@ -1,0 +1,91 @@
+.all{
+    background-color: #fff;
+}
+
+.card_form{
+    background-color: #f6f6f6;
+
+}
+
+.icone {
+    width: 7em;
+    display: flex;
+    justify-content: space-between;
+}
+
+::-webkit-input-placeholder  { color:#c5c5c5; }
+
+.input_form{
+    padding: 1em;
+    width: 18em;
+    height: 2.5em;
+    border: none;
+    border-radius: 10em;
+}
+
+.input_form:focus, input:focus, select:focus {
+    box-shadow: 2px 2px 7px 7px #c5c5c52d;
+    outline: 0;
+} 
+
+/* #email:invalid {
+
+    padding: 1em;
+    width: 18em;
+    height: 2.5em;
+    border: solid 1px #ff0000;
+    border-radius: 10em;
+    color: #ff0000;
+    background-color: #fff;
+}
+
+.div_formas:invalid {
+    color: #ff0000;
+} */
+  
+
+
+.button_submit{
+    width: 8em;
+    height: 2.8em;
+    border-radius: 2em;
+    border: none;
+    background: transparent;
+    border: 1px solid var(--greenDark);
+    color: var(--greenDark);
+}
+
+.logo_responsive{
+    display: none;
+}
+
+.name_plant{
+    color: #0c261c;
+}
+
+.preco{
+    font-size: 1.5em;
+    color: #c7c7c7;
+}
+
+@media screen and (max-width: 375px){
+
+    .all{
+        background-color: #fff;
+        padding: 1.5em;
+    }
+
+    .logo{
+        display: block;
+        max-width: 50% !important;
+        margin: 2em auto auto auto !important;
+        display: flex;
+    }
+
+    .icone {
+        width: 7em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
